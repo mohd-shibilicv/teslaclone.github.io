@@ -1,0 +1,36 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.footer ul {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer ul li {
+    margin: 0 1rem;
+    padding: 1.2rem 1rem;
+    margin-top: 1rem;
+    border-radius: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: background-color 0.33s ease;
+}
+
+.footer ul li:hover {
+    background: #0000001c;
+}
+
+.footer ul li a {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+.footer ul li:hover a {
+    color: var(--primary-color);
+}
